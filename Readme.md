@@ -1,4 +1,4 @@
-# TCG.NET - [[TC] Gaming](https://tc-gaming.co.uk)
+# TCGaming.NET - [[TC] Gaming](https://tc-gaming.co.uk)
 .NET Wrapper library for the [TC] Gaming API - Available for download via NuGet Package Manager! https://www.nuget.org/packages/TCGaming.NET/
 
 ```PM> Install-Package TCGaming.NET -Version 1.0.0.1```
