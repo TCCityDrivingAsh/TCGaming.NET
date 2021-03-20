@@ -33,7 +33,6 @@ namespace TCGaming.NET.Statistics
         private List<BaseTCMember> _users { get; set; }
         #endregion
 
-
         #region Indexers
         /// <summary>
         /// Gets a <see cref="BaseTCMember"/> from the collection by a users Live For Speed Username
@@ -92,7 +91,6 @@ namespace TCGaming.NET.Statistics
             }
         }
         #endregion
-
 
         #region "ICollection Implementation"
         /// <summary>

@@ -46,7 +46,11 @@ namespace TCGaming.NET.UserProfile
             [EnumMember(Value = "garage")]
             Garage,
             [EnumMember(Value = "locator")]
-            Locator
+            Locator,
+            [EnumMember(Value = "winch")]
+            Winch,
+            [EnumMember(Value = "ramp")]
+            Ramp
         }
         #endregion
     }

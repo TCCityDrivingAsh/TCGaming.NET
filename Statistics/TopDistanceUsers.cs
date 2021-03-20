@@ -33,7 +33,6 @@ namespace TCGaming.NET.Statistics
         private List<TopDistanceUser> _users { get; set; }
         #endregion
 
-
         #region Indexers
         /// <summary>
         /// Gets a <see cref="TopDistanceUser"/> from the collection by a users Live For Speed Username
@@ -54,7 +53,6 @@ namespace TCGaming.NET.Statistics
                 }
             }
         }
-
 
         /// <summary>
         /// Gets a <see cref="TopDistanceUser"/> from the collection by index

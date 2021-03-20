@@ -82,6 +82,9 @@ namespace TCGaming.NET.UserProfile
         [JsonProperty("nickname")]
         public string Nickname { get; private set; }
 
+        /// <summary>
+        /// Gets the Live For Speed nickname of the user (no colors/symbols)
+        /// </summary>
         public string NicknameClean => Nickname.Cleanse();
 
         /// <summary>
@@ -167,7 +170,6 @@ namespace TCGaming.NET.UserProfile
         public List<Vehicle> Cars { get; private set; }
         #endregion
 
-
         #region Chaining Methods
         /// <summary>
         /// Includes user statistics within the GetData request
@@ -220,6 +222,10 @@ namespace TCGaming.NET.UserProfile
         }
         #endregion
 
+        /// <summary>
+        /// Includes all available parameters to return all possible data
+        /// </summary>
+        /// <returns></returns>
         public Profile GetAll()
         {
             this._upgrades = true;

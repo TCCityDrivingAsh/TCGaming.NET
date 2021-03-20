@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace TCGaming.NET.Helpers
 {
     /// <summary>
@@ -18,6 +20,9 @@ namespace TCGaming.NET.Helpers
         #endregion
 
         #region Private Fields
+        /// <summary>
+        /// Gaming time in seconds
+        /// </summary>
         private int _gamingTime;
         #endregion
 
@@ -36,6 +41,11 @@ namespace TCGaming.NET.Helpers
         /// Gets the gaming time in seconds
         /// </summary>
         public int Seconds => _gamingTime;
+
+        /// <summary>
+        /// Returns the gaming time within a TimeSpan object
+        /// </summary>
+        public TimeSpan TimeSpan => TimeSpan.FromSeconds(_gamingTime);
         #endregion
     }
 }

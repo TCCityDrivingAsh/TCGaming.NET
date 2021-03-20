@@ -39,6 +39,5 @@ namespace TCGaming.NET.ServerStatus
         [JsonProperty("maxGuests")]
         public int MaximumGuests { get; private set; }
         #endregion
-
     }
 }

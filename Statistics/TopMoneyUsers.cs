@@ -33,7 +33,6 @@ namespace TCGaming.NET.Statistics
         private List<TopMoneyUser> _users { get; set; }
         #endregion
 
-
         #region Indexers
         /// <summary>
         /// Gets a <see cref="TopMoneyUser"/> from the collection by a users Live For Speed Username
