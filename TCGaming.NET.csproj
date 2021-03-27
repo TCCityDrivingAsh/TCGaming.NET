@@ -105,7 +105,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserProfile\Vehicle.cs" />
     <Compile Include="UserProfile\Profiles.cs" />
-    <Compile Include="UserProfile\Property.cs" />
     <Compile Include="UserProfile\Stats.cs" />
     <Compile Include="VehicleInfo\PreOwner.cs" />
     <Compile Include="VehicleInfo\Vehicle.cs" />

@@ -49,7 +49,11 @@ namespace TCGaming.NET.Common
             [EnumMember(Value = "ramp")]
             Ramp,
             [EnumMember(Value = "winch")]
-            Winch
+            Winch,
+            [EnumMember(Value = "garage")]
+            Garage,
+            [EnumMember(Value = "locator")]
+            Locator
         }
         #endregion
     }

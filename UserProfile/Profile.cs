@@ -6,6 +6,7 @@ using System.Reflection;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using TCGaming.NET.Helpers;
+using TCGaming.NET.Common;
 
 namespace TCGaming.NET.UserProfile
 {
@@ -161,7 +162,7 @@ namespace TCGaming.NET.UserProfile
         /// Getes a list of properties associated to the users account
         /// </summary>
         [JsonProperty("properties")]
-        public List<Property> Properties { get; private set; }
+        public List<Upgrade> Properties { get; private set; }
 
         /// <summary>
         /// Gets a list of cars owned by the user
@@ -214,7 +215,7 @@ namespace TCGaming.NET.UserProfile
         /// <summary>
         /// Includes user properties within the GetData request
         /// </summary>
-        /// <returns>List of <see cref="Property"/> objects</returns>
+        /// <returns>List of <see cref="Upgrade"/> objects</returns>
         public Profile GetProperties()
         {
             this._properties = true;
